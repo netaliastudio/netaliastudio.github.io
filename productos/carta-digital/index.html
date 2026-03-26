@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carta Digital para Restaurantes — Netalia Studio</title>
+    <meta
+      name="description"
+      content="Carta digital online para tu restaurante o bar. Tus clientes la ven desde el móvil sin descargar nada. Tú la actualizas en segundos desde un panel propio."
+    />
+
+    <link rel="icon" href="../../assets/img/icono.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ============================================================
+       NAVBAR
+    ============================================================ -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="navbar-inner">
+          <a href="../../">
+            <img
+              src="../../assets/img/logo1.svg"
+              alt="Netalia Studio"
+              class="navbar-img"
+              width="200"
+              height="40"
+            />
+          </a>
+
+          <ul class="nav-links">
+            <li><a href="../../#servicios">Servicios</a></li>
+            <li><a href="../../#portfolio">Trabajos</a></li>
+            <li><a href="../../#equipo">Equipo</a></li>
+            <li><a href="#contacto" class="btn btn-primary">Solicitar</a></li>
+          </ul>
+
+          <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="../../#servicios">Servicios</a>
+        <a href="../../#portfolio">Trabajos</a>
+        <a href="../../#equipo">Equipo</a>
+        <a href="#contacto" class="btn btn-primary">Solicitar</a>
+      </div>
+    </nav>
+
+    <!-- ============================================================
+       HERO
+    ============================================================ -->
+    <section class="hero hero-producto" id="inicio">
+      <div class="hero-bg">
+        <div class="shape-1"></div>
+        <div class="shape-2"></div>
+        <div class="shape-3"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content hero-content-centro">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Producto Netalia Studio
+          </div>
+
+          <h1 class="hero-title">
+            La carta de tu restaurante,<br />
+            <span class="highlight">siempre actualizada</span>
+          </h1>
+
+          <p class="hero-desc hero-desc-centro">
+            Tus clientes consultan la carta desde el móvil, sin descargar nada.
+            Tú añades, editas o desactivas platos en segundos desde tu panel privado.
+            Sin depender de nadie más.
+          </p>
+
+          <div class="hero-btns hero-btns-centro">
+            <a href="#video" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true">
+                <polygon points="5 3 19 12 5 21 5 3" />
+              </svg>
+              Ver cómo funciona
+            </a>
+            <a href="#contacto" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true">
+                <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+              </svg>
+              Solicitar para mi negocio
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       VIDEO
+    ============================================================ -->
+    <section class="section section-video" id="video">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-label">Míralo en acción</p>
+          <h2 class="section-title">Un minuto y lo entiendes todo</h2>
+          <p class="section-desc">
+            Sin tecnicismos. Así de sencillo es para ti y para tus clientes.
+          </p>
+        </div>
+
+        <div class="video-wrapper fade-in">
+          <!-- Inserta aquí tu vídeo: sustituye este bloque por un <video> o <iframe> de YouTube/Vimeo -->
+          <div class="video-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <polygon points="5 3 19 12 5 21 5 3" />
+            </svg>
+            <p>Vídeo de presentación</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       CÓMO FUNCIONA
+    ============================================================ -->
+    <section class="section como-funciona" id="como-funciona">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-label">El proceso</p>
+          <h2 class="section-title">Tres pasos, y ya está</h2>
+          <p class="section-desc">Nos encargamos de todo el trabajo técnico.</p>
+        </div>
+
+        <div class="pasos-grid">
+          <div class="paso-card fade-in">
+            <div class="paso-num">01</div>
+            <h3>Nos contactas</h3>
+            <p>
+              Nos dices el nombre del negocio y los platos que tienes.
+              Nosotros diseñamos y montamos la carta con tu imagen.
+            </p>
+          </div>
+
+          <div class="paso-flecha" aria-hidden="true">→</div>
+
+          <div class="paso-card fade-in">
+            <div class="paso-num">02</div>
+            <h3>Tú la gestionas</h3>
+            <p>
+              Desde tu panel privado puedes añadir platos, cambiar precios,
+              activar o desactivar productos. Sin saber nada de programación.
+            </p>
+          </div>
+
+          <div class="paso-flecha" aria-hidden="true">→</div>
+
+          <div class="paso-card fade-in">
+            <div class="paso-num">03</div>
+            <h3>Tus clientes la ven</h3>
+            <p>
+              Con un enlace o un QR, tus clientes acceden a la carta desde
+              cualquier móvil, en tiempo real, sin instalar nada.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       CARACTERÍSTICAS
+    ============================================================ -->
+    <section class="section porque" id="caracteristicas">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-label">¿Qué incluye?</p>
+          <h2 class="section-title">Todo lo que necesitas,<br />nada que no uses</h2>
+        </div>
+
+        <div class="servicios-lista fade-in">
+          <div class="servicio-fila">
+            <span class="servicio-num">01</span>
+            <div class="servicio-fila-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </div>
+            <div class="servicio-fila-body">
+              <h3>Panel de administración privado</h3>
+              <p>Acceso protegido con usuario y contraseña. Solo tú puedes modificar la carta.</p>
+            </div>
+          </div>
+
+          <div class="servicio-fila">
+            <span class="servicio-num">02</span>
+            <div class="servicio-fila-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+              </svg>
+            </div>
+            <div class="servicio-fila-body">
+              <h3>Actualización en tiempo real</h3>
+              <p>Cambias un precio o desactivas un plato, y tus clientes lo ven al instante. Sin recargar ni esperar.</p>
+            </div>
+          </div>
+
+          <div class="servicio-fila">
+            <span class="servicio-num">03</span>
+            <div class="servicio-fila-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <line x1="8" y1="6" x2="21" y2="6" />
+                <line x1="8" y1="12" x2="21" y2="12" />
+                <line x1="8" y1="18" x2="21" y2="18" />
+                <line x1="3" y1="6" x2="3.01" y2="6" />
+                <line x1="3" y1="12" x2="3.01" y2="12" />
+                <line x1="3" y1="18" x2="3.01" y2="18" />
+              </svg>
+            </div>
+            <div class="servicio-fila-body">
+              <h3>Categorías organizadas</h3>
+              <p>Entrantes, pizzas, postres, bebidas… organiza los platos como tú quieras. La carta se adapta a tu negocio.</p>
+            </div>
+          </div>
+
+          <div class="servicio-fila">
+            <span class="servicio-num">04</span>
+            <div class="servicio-fila-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="2" y1="12" x2="22" y2="12" />
+                <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+              </svg>
+            </div>
+            <div class="servicio-fila-body">
+              <h3>Acceso por enlace o QR</h3>
+              <p>Comparte la carta en Instagram, WhatsApp o ponla en un QR en las mesas. Sin apps, sin descargas.</p>
+            </div>
+          </div>
+
+          <div class="servicio-fila">
+            <span class="servicio-num">05</span>
+            <div class="servicio-fila-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <div class="servicio-fila-body">
+              <h3>Precio justo, sin sorpresas</h3>
+              <p>Pago único por el montaje. Sin cuotas mensuales ocultas ni contratos eternos. Pregúntanos sin compromiso.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       CONTACTO
+    ============================================================ -->
+    <section class="section contacto" id="contacto">
+      <div class="container">
+        <div class="contacto-inner">
+          <div class="contacto-info fade-in">
+            <h2>¿Lo quieres para tu negocio?</h2>
+            <p>
+              Cuéntanos el nombre de tu restaurante o bar y qué categorías
+              tienes. Te respondemos en menos de 24 horas con todo lo que
+              necesitas saber.
+            </p>
+
+            <div class="contacto-dato">
+              <div class="contacto-dato-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <a href="mailto:info@netaliastudio.com">info@netaliastudio.com</a>
+            </div>
+
+            <div class="social-links">
+              <a href="https://instagram.com/netalia.studio" target="_blank" rel="noopener" class="social-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+                @netalia.studio
+              </a>
+            </div>
+          </div>
+
+          <div class="fade-in">
+            <div class="form-card">
+              <form id="contactForm" action="https://formspree.io/f/mojkojkw" method="POST">
+                <div class="form-group">
+                  <label for="nombre">Tu nombre</label>
+                  <input type="text" id="nombre" name="nombre" placeholder="María García" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="negocio">Nombre del negocio</label>
+                  <input type="text" id="negocio" name="negocio" placeholder="Pizzería San Remo" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="contacto-campo">Teléfono o email</label>
+                  <input type="text" id="contacto-campo" name="contacto" placeholder="612 345 678 o tu@email.com" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="mensaje">¿Algo más que quieras contarnos?</label>
+                  <textarea id="mensaje" name="mensaje" placeholder="Número de platos aproximado, categorías, si ya tienes hosting..."></textarea>
+                </div>
+
+                <input type="hidden" name="producto" value="Carta Digital" />
+
+                <button type="submit" class="btn btn-primary form-submit">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true">
+                    <line x1="22" y1="2" x2="11" y2="13" />
+                    <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                  </svg>
+                  Solicitar carta digital
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       FOOTER
+    ============================================================ -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <span style="color: var(--ambar)">●</span> Netalia Studio
+            </div>
+            <p>Creamos páginas web para pequeños negocios locales. Sin complicaciones, con cariño y a un precio justo.</p>
+            <p class="footer-heart">❤ Hecho con cariño en Algeciras</p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Navegación</h4>
+            <ul>
+              <li><a href="../../">Inicio</a></li>
+              <li><a href="../../#servicios">Servicios</a></li>
+              <li><a href="../../#portfolio">Trabajos</a></li>
+              <li><a href="../../#equipo">Equipo</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contacto</h4>
+            <ul>
+              <li><a href="mailto:info@netaliastudio.com">info@netaliastudio.com</a></li>
+              <li><a href="https://instagram.com/netalia.studio" target="_blank" rel="noopener">Instagram</a></li>
+              <li><a href="https://tiktok.com/@netalia.studio" target="_blank" rel="noopener">TikTok</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2025 Netalia Studio — Todos los derechos reservados</p>
+          <div class="footer-social">
+            <a href="https://instagram.com/netalia.studio" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg>
+            </a>
+            <a href="https://tiktok.com/@netalia.studio" target="_blank" rel="noopener" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.76a4.85 4.85 0 01-1.01-.07z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../../assets/js/main.js" defer></script>
+  </body>
+</html>

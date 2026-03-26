@@ -1,0 +1,194 @@
+/* ============================================================
+   Carta Digital — estilos específicos del producto
+   Complementa ../../assets/css/style.css
+============================================================ */
+
+/* ── HERO CENTRADO (variante para páginas de producto) ──── */
+.hero-producto {
+  min-height: 70vh;
+}
+
+.hero-content-centro {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-desc-centro {
+  max-width: 560px;
+  margin: 0 auto 2rem;
+}
+
+.hero-btns-centro {
+  justify-content: center;
+}
+
+/* ── SECCIÓN VIDEO ──────────────────────────────────────── */
+.section-video {
+  background: var(--fondo);
+}
+
+.video-wrapper {
+  max-width: 860px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 48px rgba(0, 0, 0, 0.12);
+  border: 1px solid var(--borde);
+  aspect-ratio: 16 / 9;
+}
+
+.video-wrapper video,
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: none;
+}
+
+/* Placeholder hasta que se inserte el vídeo real */
+.video-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  color: rgba(255, 255, 255, 0.35);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.video-placeholder svg {
+  width: 56px;
+  height: 56px;
+  opacity: 0.4;
+}
+
+.video-placeholder p {
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* ── PASOS (cómo funciona) ──────────────────────────────── */
+.pasos-grid {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.paso-card {
+  background: var(--blanco);
+  border: 1px solid var(--borde);
+  border-radius: 14px;
+  padding: 2rem 1.6rem;
+  flex: 1;
+  max-width: 280px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+}
+
+.paso-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(37, 99, 235, 0.1);
+}
+
+.paso-num {
+  font-family: var(--font-display);
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: var(--azul);
+  opacity: 0.25;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+
+.paso-card h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--texto);
+  margin-bottom: 0.6rem;
+}
+
+.paso-card p {
+  font-size: 0.88rem;
+  color: var(--texto-suave);
+  line-height: 1.65;
+}
+
+.paso-flecha {
+  font-size: 1.8rem;
+  color: var(--borde);
+  padding-top: 4rem;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+/* ── LISTA DE CARACTERÍSTICAS (sobre fondo azul) ────────── */
+.porque .servicios-lista {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.porque .servicio-fila {
+  border-bottom-color: rgba(255, 255, 255, 0.15);
+}
+
+.porque .servicio-fila:first-child {
+  border-top-color: rgba(255, 255, 255, 0.15);
+}
+
+.porque .servicio-num {
+  color: var(--ambar);
+}
+
+.porque .servicio-fila-icon {
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--blanco);
+}
+
+.porque .servicio-fila-icon svg {
+  stroke: var(--blanco);
+}
+
+.porque .servicio-fila-body h3 {
+  color: var(--blanco);
+}
+
+.porque .servicio-fila-body p {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+/* ── RESPONSIVE ─────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .hero-btns-centro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-btns-centro .btn {
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
+  }
+
+  .pasos-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .paso-card {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .paso-flecha {
+    transform: rotate(90deg);
+    padding-top: 0;
+  }
+}

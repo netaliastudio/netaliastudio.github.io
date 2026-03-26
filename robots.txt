@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://netaliastudio.github.io/sitemap.xml
