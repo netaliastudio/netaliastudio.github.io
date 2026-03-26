@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" fill="none">
-  <path d="M15 10V35C15 40.5 19.5 45 25 45" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
-  <path d="M40 40V15C40 9.5 35.5 5 30 5" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
-  <circle cx="27.5" cy="25" r="5" fill="#F59E0B" />
-  
-  <text x="55" y="32" fill="#1E293B" style="font-family:'Syne',sans-serif;font-weight:800;" font-size="20">Netalia Studio</text>
-</svg>
